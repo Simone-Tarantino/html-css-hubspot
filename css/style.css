@@ -31,10 +31,12 @@ header {
 }
 
 /* navbar */
+/* top */
 
 .nav-top {
   background-color: #F4F9FD;
   line-height: 80px;
+  border-bottom: 1px inset #32495B;
 }
 .nav-top ul {
   list-style: none;
@@ -57,6 +59,8 @@ header {
   clear: both;
 }
 
+/* zona sinistra */
+
 .nav-top-left {
   height: 80px;
   width: 50%;
@@ -73,6 +77,8 @@ header {
 .nav-top-left ul li:last-child a {
   padding-left: 20px;
 }
+
+/* zona destra */
 
 .nav-top-right {
   height: 80px;
@@ -96,10 +102,26 @@ header {
   color: #F4F9FD;
 }
 
-
-
+/* header */
+/* bottom */
 
 .nav-bot {
   height: 80px;
-  background-color: lightblue;
+  line-height: 80px;
+  background-color: #FFFFFF;
+}
+
+.nav-bot-container {
+  width: 85%;
+  margin: auto;
+}
+.nav-bot-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-bot-left {
+  padding-top: 6px;
+  height: 80px;
 }
