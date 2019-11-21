@@ -24,12 +24,6 @@
 }
 
 /* header */
-
-header {
-  height: 700px;
-  background-color: blue;
-}
-
 /* navbar */
 /* top */
 
@@ -49,7 +43,7 @@ header {
 }
 
 .nav-top-container {
-  width: 85%;
+  width: 75%;
   margin: auto;
   background-color: #F4F9FD;
 }
@@ -106,7 +100,6 @@ header {
 /* bottom */
 
 .nav-bot {
-  height: 80px;
   line-height: 80px;
   background-color: #FFFFFF;
 }
@@ -121,7 +114,7 @@ header {
 }
 
 .nav-bot-container {
-  width: 85%;
+  width: 75%;
   margin: auto;
 }
 .nav-bot-container::after {
@@ -151,4 +144,15 @@ header {
 }
 .nav-bot-right i {
   padding-left: 15px;
+}
+
+/* zona principale header */
+
+.main-header {
+  height: 650px;
+  width: 100%;
+  background-color: #FEF6EE;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
