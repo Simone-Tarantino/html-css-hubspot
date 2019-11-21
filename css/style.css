@@ -110,6 +110,15 @@ header {
   line-height: 80px;
   background-color: #FFFFFF;
 }
+.nav-bot ul {
+  list-style: none;
+}
+.nav-bot li {
+  display: inline-block;
+}
+.nav-bot a {
+  text-decoration: none;
+}
 
 .nav-bot-container {
   width: 85%;
@@ -121,7 +130,25 @@ header {
   clear: both;
 }
 
+/* zona sinistra */
+
 .nav-bot-left {
-  padding-top: 6px;
+  padding-top: 7px;
   height: 80px;
+  width: 50%;
+}
+
+/* zona destra */
+
+.nav-bot-right {
+  height: 80px;
+  width: 50%;
+  text-align: right;
+}
+.nav-bot-right ul li a {
+  color: #32495B;
+  padding-left: 15px;
+}
+.nav-bot-right i {
+  padding-left: 15px;
 }
