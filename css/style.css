@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  height: 700px;
+  background-color: blue;
+}
+
+.nav-top {
+  height: 80px;
+  background-color: #0b3644;
+}
+
+.nav-bot {
+  height: 80px;
+  background-color: lightblue;
+}
