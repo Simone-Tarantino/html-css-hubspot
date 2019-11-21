@@ -154,5 +154,6 @@
   background-color: #FEF6EE;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: 100% -12px;
+  background-size: 1550px;
 }
