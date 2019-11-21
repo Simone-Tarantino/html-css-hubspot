@@ -1,17 +1,55 @@
+/* regole generali */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* header */
+
 header {
   height: 700px;
   background-color: blue;
 }
 
+/* navbar */
+
 .nav-top {
   height: 80px;
   background-color: #0b3644;
+}
+
+.nav-top-container {
+  height: 80px;
+  width: 85%;
+  margin: auto;
+  background-color: yellow;
+}
+.nav-top-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-top-left {
+  height: 80px;
+  width: 20%;
+  background-color: #87d4ff;
+}
+
+.nav-top-right {
+  height: 80px;
+  width: 20%;
+  background-color: #87d4ff;
 }
 
 .nav-bot {
