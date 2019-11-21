@@ -15,6 +15,14 @@
   float: right;
 }
 
+.radius {
+  border-radius: 7px;
+}
+
+.orange {
+  background-color: #FE775A;
+}
+
 /* header */
 
 header {
@@ -25,7 +33,6 @@ header {
 /* navbar */
 
 .nav-top {
-  height: 80px;
   background-color: #F4F9FD;
   line-height: 80px;
 }
@@ -40,7 +47,6 @@ header {
 }
 
 .nav-top-container {
-  height: 80px;
   width: 85%;
   margin: auto;
   background-color: #F4F9FD;
@@ -53,7 +59,7 @@ header {
 
 .nav-top-left {
   height: 80px;
-  width: 20%;
+  width: 50%;
   background-color: #F4F9FD;
 }
 .nav-top-left ul li a {
@@ -68,13 +74,30 @@ header {
   padding-left: 20px;
 }
 
-
 .nav-top-right {
   height: 80px;
-  width: 20%;
-  border: 1px solid black;
+  width: 50%;
   background-color: #F4F9FD;
+  text-align: right;
 }
+.nav-top-right i {
+  color: #00A4BD;
+}
+
+.button-login {
+  color: #FE775A;
+  padding: 12px 10px;
+  border: 1px solid #FE775A;
+  margin: 0 25px;
+}
+
+.button-free {
+  padding: 12px 10px;
+  color: #F4F9FD;
+}
+
+
+
 
 .nav-bot {
   height: 80px;
