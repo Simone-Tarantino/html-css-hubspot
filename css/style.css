@@ -184,3 +184,13 @@ a {
   display: block;
   font-size: 15px;
 }
+
+/* blocco di separazione header/main */
+
+.hr-block {
+  height: 100px;
+  width: 100%;
+  background-color: #AFEBE4;
+  border-top: 4px solid #33475B;
+  border-bottom: 4px solid #33475B;
+}
