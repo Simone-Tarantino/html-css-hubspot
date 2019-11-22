@@ -194,3 +194,19 @@ a {
   border-top: 4px solid #33475B;
   border-bottom: 4px solid #33475B;
 }
+
+/* inizio main */
+
+.main-container {
+  height: 1800px;
+  width: 100%;
+  background-color: green;
+}
+
+.cube-section {
+  height: 400px;
+  width: 75%;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
