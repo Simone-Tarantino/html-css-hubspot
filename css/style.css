@@ -204,9 +204,38 @@ a {
 }
 
 .cube-section {
-  height: 400px;
-  width: 75%;
-  border: 1px solid black;
+  width: 50%;
+  background-color: white;
   margin: auto;
   text-align: center;
+  padding: 20px 0 50px;
+}
+
+.cmr-section {
+  height: 300px;
+  width: 75%;
+  margin: auto;
+  background-color: blue;
+}
+
+.box-hub-container {
+  width: 75%;
+  margin: 50px auto;
+}
+.box-hub-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-hub-1,
+.box-hub-2,
+.box-hub-3 {
+  height: 650px;
+  width: 30%;
+  background-color: red;
+}
+
+.box-hub-2 {
+  margin: 0 5%;
 }
