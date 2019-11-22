@@ -357,6 +357,12 @@ a {
   text-transform: uppercase;
   margin-top: 50px;
 }
+.box-hub-container a {
+  padding: 20px 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-top: 60px;
+}
 
 .features-box {
   text-align: left;
