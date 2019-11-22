@@ -268,16 +268,47 @@ a {
   height: 80px;
 }
 .crm-img-button-center span a {
-  padding: 20px 40px;
+  padding: 20px 20px;
 }
 
 .crm-text {
   height: 100%;
-  width: 70%;
+  width: 65%;
+  border: 1px solid black;
+  color: #32495B;
+}
+.crm-text h3 {
+  padding-top: 40px;
+  font-size: 30px;
+}
+.crm-text p {
+  margin-top: 40px;
 }
 
+.crm-bottom {
+  margin-top: 20px;
+}
+.crm-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.crm-bottom h4 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+.crm-bottom hr {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 4px;
+}
 
-
+.crm-subtitle {
+  width: 30%;
+}
+.crm-hr {
+  width: 65%;
+}
 
 
 .box-hub-container {
