@@ -228,6 +228,7 @@ a {
   width: 75%;
   margin: auto;
   background-color: #FFF;
+
 }
 
 /* box secontadio contenitore dei box flottanti */
@@ -332,20 +333,53 @@ a {
 
 .box-hub-container {
   width: 75%;
-  margin: 50px auto;
+  margin: 60px auto;
+  color: #32495B;
 }
 .box-hub-container::after {
   content: "";
   display: table;
   clear: both;
 }
+.box-hub-container img {
+  height: 150px;
+}
+.box-hub-container h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  margin: 25px 0;
+}
+.box-hub-container p {
+  line-height: 35px;
+  margin-bottom: 80px;
+}
+.box-hub-container h4 {
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.features-box {
+  text-align: left;
+}
+.features-box ul {
+  list-style: none;
+  margin-top: 40px;
+}
+.features-box li {
+  text-transform: capitalize;
+}
+.features-box i {
+  padding-right: 20px;
+  color: #FE775A;
+}
 
 .box-hub-1,
 .box-hub-2,
 .box-hub-3 {
-  height: 650px;
   width: 30%;
   background-color: #FFF;
+  text-align: center;
+  padding: 25px;
 }
 
 .box-hub-2 {
