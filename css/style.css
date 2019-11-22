@@ -221,12 +221,16 @@ a {
   line-height: 35px;
 }
 
+/* box principale contenitore crm */
+
 .crm-section {
   height: 400px;
   width: 75%;
   margin: auto;
   background-color: #FFF;
 }
+
+/* box secontadio contenitore dei box flottanti */
 
 .crm-container {
   height: 100%;
@@ -239,23 +243,37 @@ a {
   clear: both;
 }
 
+/* box flottante che contiente immagine e bottone */
+
 .crm-img-button {
   height: 100%;
   width: 30%;
-  border: 1px solid black;
+  position: relative;
 }
-.crm-img-button img {
-  height: 100px;
+
+.crm-img-button-center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.crm-img-button span {
-  padding-top: 30px;
+
+.crm-img-button-center img {
+  height: 120px;
+}
+.crm-img-button-center span {
   display: block;
+  padding-top: 30px;
+  height: 80px;
+}
+.crm-img-button-center span a {
+  padding: 20px 40px;
 }
 
 .crm-text {
   height: 100%;
   width: 70%;
-  border: 1px solid black;
 }
 
 
