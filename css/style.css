@@ -422,21 +422,38 @@ a {
 .learngrow-container {
   width: 75%;
   margin: auto ;
-  padding: 50px 0 80px;
+  padding: 50px 0 100px;
 }
 
 .learngrow-stats {
   width: calc(100% / 4);
   border-right: 1px solid #FFF;
+  text-align: center;
+}
+.learngrow-stats span {
+  display: block;
+  color: #FFF;
 }
 
+.learngrow-stats .stats-number {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px 0 20px;
+}
+.learngrow-stats .stats-info {
+  font-size: 15px;
+}
+
+.top-row {
+  border-bottom: 1px solid #FFF;
+}
 .top-row::after {
   content: "";
   display: table;
   clear: both;
 }
-.top-row div {
-  border-bottom: 1px solid #FFF;
+.top-row .learngrow-stats {
+  padding-bottom: 20px;
 }
 .top-row div:last-child {
   border-right: 0;
@@ -446,6 +463,9 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+.bot-row .learngrow-stats {
+  padding-top: 20px;
 }
 .bot-row div:last-child {
   border-right: 0;
