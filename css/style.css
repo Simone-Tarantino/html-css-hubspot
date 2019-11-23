@@ -391,3 +391,37 @@ a {
 .box-hub-2 {
   margin: 0 5%;
 }
+
+/* sezione con sfondo sfumato */
+
+.learngrow-section {
+  height: 800px;
+  width: 100%;
+  background: rgb(0,165,188);
+  background: -webkit-linear-gradient(left, rgba(0,165,188,1) 0%, rgba(0,165,188,1) 0%, rgba(0,187,166,1) 100%);
+}
+
+.learngrow-text {
+  text-align: center;
+  color: #FFF;
+  padding-top: 50px;
+  width: 75%;
+  margin: auto;
+}
+.learngrow-text h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.learngrow-text p {
+  line-height: 35px;
+}
+
+.learngrow-container {
+  width: 75%;
+  margin: auto;
+}
+.learngrow-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
