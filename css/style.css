@@ -395,11 +395,12 @@ a {
 /* sezione con sfondo sfumato */
 
 .learngrow-section {
-  height: 800px;
   width: 100%;
   background: rgb(0,165,188);
   background: -webkit-linear-gradient(left, rgba(0,165,188,1) 0%, rgba(0,165,188,1) 0%, rgba(0,187,166,1) 100%);
 }
+
+/* zona test */
 
 .learngrow-text {
   text-align: center;
@@ -416,12 +417,36 @@ a {
   line-height: 35px;
 }
 
+/* zona statische */
+
 .learngrow-container {
   width: 75%;
-  margin: auto;
+  margin: auto ;
+  padding: 50px 0 80px;
 }
-.learngrow-container::after {
+
+.learngrow-stats {
+  width: calc(100% / 4);
+  border-right: 1px solid #FFF;
+}
+
+.top-row::after {
   content: "";
   display: table;
   clear: both;
+}
+.top-row div {
+  border-bottom: 1px solid #FFF;
+}
+.top-row div:last-child {
+  border-right: 0;
+}
+
+.bot-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bot-row div:last-child {
+  border-right: 0;
 }
