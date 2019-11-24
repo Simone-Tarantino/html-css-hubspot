@@ -593,9 +593,10 @@ footer {
 
 .footer-link {
   width: 75%;
-  background-color: red;
   height: 500px;
   margin: auto;
+  color: #FFF;
+  padding-top: 50px;
 }
 .footer-link::after {
   content: "";
@@ -604,7 +605,15 @@ footer {
 }
 
 .col-link-footer {
-  border: 1px solid black;
   width: 25%;
-  height: 200px;
+}
+.col-link-footer h4 {
+  margin-bottom: 40px;
+}
+.col-link-footer ul {
+  list-style: none;
+  line-height: 45px;
+}
+.col-link-footer ul li a {
+  color: #CBD6E2;
 }
