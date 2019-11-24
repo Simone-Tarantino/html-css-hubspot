@@ -487,6 +487,8 @@ a {
   clear: both;
 }
 
+/* zona test customers */
+
 .customers-text {
   width: 30%;
   height: 100%;
@@ -505,6 +507,12 @@ a {
   margin: auto;
 }
 
+/* zona logo customers */
+
+.customers-logos-container {
+  width: 60%;
+}
+
 .logos-top-row::after {
   content: "";
   display: table;
@@ -517,15 +525,37 @@ a {
   clear: both;
 }
 
-.customers-logos-container {
-  width: 60%;
-}
-
 .customers-logo {
-  width: calc(100% / 4);
-  height: 70px;
+  width: 25%;
 }
 
 .customers-logo img {
-  width: 80%;
+  width: 150px;
+  padding: 5px;
+}
+
+/* ultima sezione main */
+
+.last-main-section {
+  width: 75%;
+  margin: auto;
+  height: 400px;
+  background-color: blue;
+}
+.last-main-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.last-main-text {
+  background-color: red;
+  width: 50%;
+  height: 100%;
+}
+
+.last-main-img {
+  background-color: green;
+  width: 50%;
+  height: 100%;
 }
