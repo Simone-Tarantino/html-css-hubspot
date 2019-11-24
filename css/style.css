@@ -587,13 +587,13 @@ main {
 /* footer */
 
 footer {
-  height: 500px;
   background-color: #32495B;
 }
 
+/* zona link footer/ zona superiore */
+
 .footer-link {
   width: 75%;
-  height: 500px;
   margin: auto;
   color: #FFF;
   padding-top: 50px;
@@ -616,4 +616,68 @@ footer {
 }
 .col-link-footer ul li a {
   color: #CBD6E2;
+}
+
+.grey-contact-button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 15px;
+  background-color: #DADEE0;
+  color: #32495B;
+  font-size: 18px;
+}
+
+.social-logo li {
+  display: inline-block;
+  margin: 10px 30px 0 0;
+}
+
+/* zona lingua footer/zona inferiore*/
+
+.footer-languages {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+.footer-languages ul li {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.footer-languages ul li a {
+  text-transform: capitalize;
+  color: #CBD6E2;
+  margin-right: 20px;
+}
+.footer-languages hr {
+  color: #CBD6E2;
+}
+
+/* zona copyright+legal footer /zona inferiore */
+.copyright-legal-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.copyright-legal-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.copyright span {
+  display: block;
+  color: #FFF;
+}
+
+.legal-privacy ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.legal-privacy ul {
+  list-style: none;
+}
+.legal-privacy ul li a {
+  color: #DADEE0;
+  text-transform: capitalize;
 }
