@@ -37,9 +37,9 @@ a {
 /* top */
 
 .nav-top {
-  background-color: #F4F9FD;
   line-height: 80px;
   border-bottom: 1px inset #32495B;
+  background-color: #F4F9FD;
 }
 .nav-top ul {
   list-style: none;
@@ -83,18 +83,18 @@ a {
 .nav-top-right {
   height: 80px;
   width: 50%;
-  background-color: #F4F9FD;
   text-align: right;
+  background-color: #F4F9FD;
 }
 .nav-top-right i {
   color: #00A4BD;
 }
 
 .button-login {
-  color: #FE775A;
+  margin: 0 25px;
   padding: 12px 10px;
   border: 1px solid #FE775A;
-  margin: 0 25px;
+  color: #FE775A;
 }
 
 .button-free {
@@ -129,9 +129,9 @@ a {
 /* zona sinistra */
 
 .nav-bot-left {
-  padding-top: 7px;
   height: 80px;
   width: 50%;
+  padding-top: 7px;
 }
 
 /* zona destra */
@@ -172,16 +172,16 @@ a {
   color: #32495B;
 }
 .main-header-text h1 {
-  font-size: 60px;
   margin-bottom: 45px;
+  font-size: 60px;
 }
 .main-header-text p {
   line-height: 35px;
 }
 .main-header-text a {
   margin: 30px 0;
-  display: inline-block;
   padding: 30px 40px;
+  display: inline-block;
 }
 .main-header-text span {
   display: block;
@@ -193,9 +193,9 @@ a {
 .hr-block {
   height: 100px;
   width: 100%;
-  background-color: #AFEBE4;
   border-top: 4px solid #33475B;
   border-bottom: 4px solid #33475B;
+  background-color: #AFEBE4;
 }
 
 /* inizio main */
@@ -228,7 +228,6 @@ main {
   width: 75%;
   margin: auto;
   background-color: #FFF;
-
 }
 
 /* box secontadio contenitore dei box flottanti */
@@ -247,27 +246,27 @@ main {
 /* box flottante che contiente immagine e bottone */
 
 .crm-img-button {
+  position: relative;
   height: 100%;
   width: 30%;
-  position: relative;
 }
 
 /* div da centrare nel box */
 
 .crm-img-button-center {
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .crm-img-button-center img {
   height: 120px;
 }
 .crm-img-button-center span {
   display: block;
-  padding-top: 30px;
   height: 80px;
+  padding-top: 30px;
 }
 .crm-img-button-center span a {
   padding: 20px 20px;
@@ -300,8 +299,8 @@ main {
   clear: both;
 }
 .crm-mid h4 {
-  text-transform: uppercase;
   display: inline-block;
+  text-transform: uppercase;
 }
 .crm-mid hr {
   display: inline-block;
@@ -346,22 +345,22 @@ main {
 }
 .box-hub-container h3 {
   text-transform: capitalize;
-  font-size: 30px;
   margin: 25px 0;
+  font-size: 30px;
 }
 .box-hub-container p {
-  line-height: 35px;
   margin-bottom: 80px;
+  line-height: 35px;
 }
 .box-hub-container h4 {
   text-transform: uppercase;
   margin-top: 50px;
 }
 .box-hub-container a {
-  padding: 20px 20px;
   display: inline-block;
-  text-transform: capitalize;
   margin-top: 60px;
+  padding: 20px 20px;
+  text-transform: capitalize;
 }
 
 .features-box {
@@ -383,9 +382,9 @@ main {
 .box-hub-2,
 .box-hub-3 {
   width: 30%;
-  background-color: #FFF;
-  text-align: center;
   padding: 25px;
+  text-align: center;
+  background-color: #FFF;
 }
 
 .box-hub-2 {
@@ -403,11 +402,11 @@ main {
 /* zona testo */
 
 .learngrow-text {
-  text-align: center;
-  color: #FFF;
-  padding-top: 50px;
   width: 75%;
   margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  color: #FFF;
 }
 .learngrow-text h2 {
   font-size: 35px;
@@ -435,10 +434,10 @@ main {
 }
 
 .learngrow-stats .stats-number {
-  font-size: 35px;
-  font-weight: bold;
-  margin: 15px 0 10px;
   display: block;
+  margin: 15px 0 10px;
+  font-weight: bold;
+  font-size: 35px;
 }
 .learngrow-stats .stats-info {
   font-size: 15px;
@@ -490,16 +489,16 @@ main {
 /* zona testo customers */
 
 .customers-text {
-  width: 30%;
   height: 100%;
+  width: 30%;
   text-align: center;
   color: #32495B;
 }
 .customers-text .customers-number {
   display: block;
+  margin-bottom: 35px;
   font-weight: bold;
   font-size: 50px;
-  margin-bottom: 35px;
 }
 .customers-text span:last-child {
   display: inline-block;
@@ -554,30 +553,30 @@ main {
   color: #32495B;
 }
 .last-main-text h2 {
-  font-size: 35px;
-  margin-bottom: 50px;
   width: 500px;
+  margin-bottom: 50px;
+  font-size: 35px;
 }
 .last-main-text p {
-  line-height: 35px;
   width: 500px;
+  line-height: 35px;
 }
 .last-main-text a {
-  margin: 30px 0;
   display: inline-block;
+  margin: 30px 0;
   padding: 30px 40px;
 }
 .last-main-text span {
   display: block;
-  font-size: 15px;
   margin-top: 30px;
+  font-size: 15px;
 }
 
 /* zona immagine ultima sezione main (sx) */
 
 .last-main-img {
-  width: 50%;
   height: 100%;
+  width: 50%;
   text-align: right;
 }
 .last-main-img img {
@@ -595,8 +594,8 @@ footer {
 .footer-link {
   width: 75%;
   margin: auto;
-  color: #FFF;
   padding-top: 50px;
+  color: #FFF;
 }
 .footer-link::after {
   content: "";
@@ -619,12 +618,12 @@ footer {
 }
 
 .grey-contact-button {
-  margin-top: 10px;
   display: inline-block;
+  margin-top: 10px;
   padding: 15px;
-  background-color: #DADEE0;
-  color: #32495B;
   font-size: 18px;
+  color: #32495B;
+  background-color: #DADEE0;
 }
 
 .social-logo li {
@@ -635,18 +634,18 @@ footer {
 /* zona lingua footer/zona inferiore*/
 
 .footer-languages {
-  text-align: center;
   width: 75%;
   margin: auto;
+  text-align: center;
 }
 .footer-languages ul li {
   display: inline-block;
   margin-bottom: 15px;
 }
 .footer-languages ul li a {
+  margin-right: 20px;
   text-transform: capitalize;
   color: #CBD6E2;
-  margin-right: 20px;
 }
 .footer-languages hr {
   color: #CBD6E2;
@@ -655,8 +654,7 @@ footer {
 /* zona copyright+legal footer /zona inferiore */
 .copyright-legal-container {
   width: 75%;
-  margin: auto;
-  margin-top: 50px;
+  margin: 50px auto 0;
   padding-bottom: 50px;
 }
 .copyright-legal-container::after {
@@ -678,6 +676,6 @@ footer {
   list-style: none;
 }
 .legal-privacy ul li a {
-  color: #DADEE0;
   text-transform: capitalize;
+  color: #DADEE0;
 }
